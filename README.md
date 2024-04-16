@@ -1,32 +1,22 @@
-# article_18837_CxNN
-日本発の衛星データプラットフォーム Tellus のオウンドメディア「宙畑」の記事、https://sorabatake.jp/18837 で利用しているコードです。
+# CNN for Object Detection using SLC image of SAR
 
-複素ニューラルネットワークを用いたSARデータの物体検出を行います。
-なお、SARデータの取得にはTellusの開発環境を申し込む必要があります。
+This program performs object detection of SAR data using complex neural networks.
+Please note that you need to apply for Tellus development environment to obtain SAR data.
 
-## ソースコード(./src/配下を参照)
+## Source Code (Refer to /src)
 - 00.py
-  - CEOSダウンロード
+  - Download SAR SLC datasets in CEOS format
 - 01.py
-  - CEOSをSLCに変換
+  - Convert from CEOS to SLC
 - 02.py
-  - SLCをSAR画像に変換
+  - Convert SLC to SAR image
 - 03.py
-  - 学習データの生成
+  - Generate training data
 - 04.py
-  - 複素ニューラルネットワークによる学習及び評価
+  - Training and Evaluation of Complex NN
 - slcinfo.py
-  - SLCの構造体
+  - Structure of SLC
 
-## ライセンス、利用規約
-ソースコードのライセンスは CC0-1.0（Creative Commons Zero v1.0 Universal）ライセンスです。  
-今回コード内で PALSAR-2 データを用いております。利用ポリシーは以下をご参考下さい。
-https://www.tellusxdp.com/market/tool_detail/de3c41ac-a8ca-4170-9028-c9e1a39841e1/e364c31c-bfad-49d0-bd6d-f2bc11d67386
-※サイトの閲覧にはTellusへのログインが必要です。
-
-## 貢献方法
-プルリクエストや Issue はいつでも歓迎します。
-
-
-
-by charmegiddo
+## License and Rules
+The license of the source code is CC0-1.0 (Creative Commons Zero v1.0 Universal) license.  
+PALSAR-2 data is used in the code.
