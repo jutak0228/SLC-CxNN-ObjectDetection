@@ -1,4 +1,4 @@
-# CNN for Object Detection using SLC image of SAR
+# CxNN for Object Detection using SLC image of SAR
 
 This program performs object detection of SAR data using complex neural networks.
 Please note that you need to apply for Tellus development environment to obtain SAR data.
